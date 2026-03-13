@@ -1,1 +1,15 @@
 volume/
+
+# Terraformの実行バイナリとプラグイン
+.terraform/
+
+# ローカルの状態管理ファイル（機密情報が含まれる可能性があるためNG）
+*.tfstate
+*.tfstate.backup
+
+# 変数に代入する具体的な値（パスワードなどが入るためNG）
+*.tfvars
+*.tfvars.json
+
+# クラッシュログなど
+crash.log
