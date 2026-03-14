@@ -1,6 +1,4 @@
-volume/
-
-# Terraformの実行バイナリとプラグイン
+# Terraform関連
 .terraform/
 
 # ローカルの状態管理ファイル（機密情報が含まれる可能性があるためNG）
@@ -11,5 +9,9 @@ volume/
 *.tfvars
 *.tfvars.json
 
-# クラッシュログなど
-crash.log
+# ログ関連
+*.log
+
+# OS・エディタ関連
+.DS_Store
+.vscode/
